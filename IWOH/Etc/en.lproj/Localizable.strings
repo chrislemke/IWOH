@@ -1,0 +1,49 @@
+// Global
+"language.code" = "en";
+
+// Introduction
+"introduction.headline" = "What's this?";
+
+"introduction.subtitle" = "I was once here";
+
+"introduction.text.short" = "I wo - [german]: IPA: [i(ː)ˈvoː], colloquially; not at all, but no, not in the least: expresses the fact that one speaker plays down the statement of another; expresses the fact that a speaker declares the statement of another speaker to be completely false.";
+
+"introduction.text.long" = "I wo - [german]: IPA: [i(ː)ˈvoː], colloquially; not at all, but no, not in the least: expresses the fact that one speaker plays down the statement of another; expresses the fact that a speaker declares the statement of another speaker to be completely false. Synonyms: nonsense, not at all, poppycock.";
+
+"introduction.first.feature.text.short" = "Leave messages everywhere! So that your fellow man can read them. The world is one big bulletin board.";
+
+"introduction.second.feature.text.short" = "All messages are bound to a position. Activate the location service to see posts in your area and to add them to a location. Shake your device to update your location.";
+
+"introduction.first.feature.text.long" = "Leave messages everywhere! So that your fellow man can read them. Share information about places or whatever comes to your mind. The world is one big bulletin board.";
+
+"introduction.second.feature.text.long" = "All messages are bound to a position. Activate the location service to see posts in your area and to add them to a location. Simply activate it by pushing the location button on this screen. Shake your device to update your location.";
+
+// PostList
+"post.list.newest.button.text" = "Newest";
+"post.list.closest.button.text" = "Closest";
+"post.list.closest.no.location.text" = "No location";
+
+// CreatePost
+"create.post.add.siri.button.title" = "Add to Siri";
+"create.post.no.warning.text" = " ";
+"create.post.no.message.text" = "No message";
+"create.post.message.too.long.text" = "Message is too long";
+"create.post.no.location.text" = "No location available";
+"create.post.message.too.long.no.location.text" = "Message is too long, no location available";
+"create.post.no.message.no.location.text" = "No message, no location available";
+
+// Distance
+"distance.somewhere.text" = "somewhere";
+"distance.nearby.text" = "nearby";
+"distane.m.away.text" = "m away";
+"distane.m.text" = "m";
+"distance.km.away.text" = "km away";
+"distance.km.text" = "km";
+"distance.far.away.text" = "far away";
+"distance.very.far.away.text" = "very far away";
+"distance.extremely.far.away.text" = "extremely far away";
+"distance.still.on.the.planet.text" = "still on the planet";
+
+
+// Preview
+"preview.message" = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo do.";

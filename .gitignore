@@ -1,0 +1,9 @@
+.DS_Store
+/Pods
+/Podfile.lock
+/.idea
+/Brewfile.lock.json
+UserInterfaceState.xcuserstate
+contents.xcworkspacedata
+IDEFindNavigatorScopes.plist
+xcschememanagement.plist

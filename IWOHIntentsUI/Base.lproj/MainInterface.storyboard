@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intent Map View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="IntentMapViewController" customModule="IWOHIntentsUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS" userLabel="MapView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJ0-as-dLg" userLabel="Message Label">
+                                <rect key="frame" x="15" y="46" width="290" height="84"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dol</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="global.label.text.color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" showsCompass="NO" translatesAutoresizingMaskIntoConstraints="NO" id="so3-gY-h2o">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="10"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHT-ip-wGi">
+                                <rect key="frame" x="15" y="25" width="290" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" name="global.label.text.color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="global.background.color"/>
+                        <constraints>
+                            <constraint firstItem="so3-gY-h2o" firstAttribute="leading" secondItem="4PN-XC-lEE" secondAttribute="leading" id="1ZC-vG-cZT"/>
+                            <constraint firstItem="zHT-ip-wGi" firstAttribute="top" secondItem="so3-gY-h2o" secondAttribute="bottom" constant="15" id="E4T-eA-gGo"/>
+                            <constraint firstItem="so3-gY-h2o" firstAttribute="trailing" secondItem="4PN-XC-lEE" secondAttribute="trailing" id="K15-rP-Ui3"/>
+                            <constraint firstItem="VJ0-as-dLg" firstAttribute="trailing" secondItem="4PN-XC-lEE" secondAttribute="trailing" constant="-15" id="MNU-YC-q7H"/>
+                            <constraint firstItem="VJ0-as-dLg" firstAttribute="leading" secondItem="4PN-XC-lEE" secondAttribute="leading" constant="15" id="PLL-eC-6Sk"/>
+                            <constraint firstItem="zHT-ip-wGi" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" constant="15" id="Tko-zs-gWQ"/>
+                            <constraint firstItem="VJ0-as-dLg" firstAttribute="top" secondItem="zHT-ip-wGi" secondAttribute="bottom" constant="4" id="Vwi-2s-Tgh"/>
+                            <constraint firstItem="so3-gY-h2o" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="hcR-yf-hAk"/>
+                            <constraint firstAttribute="trailing" secondItem="zHT-ip-wGi" secondAttribute="trailing" constant="15" id="hry-AH-vvr"/>
+                            <constraint firstItem="4PN-XC-lEE" firstAttribute="bottom" secondItem="VJ0-as-dLg" secondAttribute="bottom" constant="20" id="lyD-X7-7Qc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4PN-XC-lEE"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="150"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="zHT-ip-wGi" id="FKu-Wz-hFE"/>
+                        <outlet property="mapView" destination="so3-gY-h2o" id="DVO-K2-Vfo"/>
+                        <outlet property="messageLabel" destination="VJ0-as-dLg" id="HHh-gg-j0v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="98.4375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="global.background.color">
+            <color red="0.88200002908706665" green="0.88200002908706665" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="global.label.text.color">
+            <color red="0.30300000309944153" green="0.30300000309944153" blue="0.30300000309944153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

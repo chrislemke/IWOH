@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ARCL",
+        "repositoryURL": "https://github.com/ProjectDent/ARKit-CoreLocation",
+        "state": {
+          "branch": null,
+          "revision": "42abf4f47b191b153d4bfe4509f15617aadd837d",
+          "version": "1.3.0"
+        }
+      },
+      {
+        "package": "CombineTestExtensions",
+        "repositoryURL": "https://github.com/industrialbinaries/CombineTestExtensions",
+        "state": {
+          "branch": "master",
+          "revision": "7b3d916bf0b7d8109f04da38ef90d98417a13fa7",
+          "version": null
+        }
+      },
+      {
+        "package": "DeviceKit",
+        "repositoryURL": "https://github.com/devicekit/DeviceKit",
+        "state": {
+          "branch": null,
+          "revision": "9625ce4f054249814e865d7b21c6724cf0324e8c",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "Swinject",
+        "repositoryURL": "https://github.com/Swinject/Swinject",
+        "state": {
+          "branch": null,
+          "revision": "8a76d2c74bafbb455763487cc6a08e91bad1f78b",
+          "version": "2.7.1"
+        }
+      },
+      {
+        "package": "ViewInspector",
+        "repositoryURL": "https://github.com/nalexn/ViewInspector",
+        "state": {
+          "branch": null,
+          "revision": "a383b295c9ad58af9b7f8d2f3a80bc24e519f461",
+          "version": "0.3.10"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

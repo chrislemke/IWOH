@@ -1,0 +1,12 @@
+disabled_rules:
+  - void_return
+  - vertical_parameter_alignment
+  - switch_case_alignment
+  - identifier_name
+  - vertical_whitespace
+  - trailing_whitespace
+  - orphaned_doc_comment
+
+excluded:
+- Pods
+- IWOHTests
